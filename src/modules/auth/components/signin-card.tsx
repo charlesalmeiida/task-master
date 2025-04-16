@@ -93,7 +93,7 @@ export function SignInCard() {
       </div>
 
       <CardContent className="px-7 flex flex-col gap-y-4">
-        <Button className="w-full" variant="secondary">
+        <Button className="w-full" variant="secondary" size="lg">
           Entrar com o Google
         </Button>
       </CardContent>

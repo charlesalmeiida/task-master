@@ -47,9 +47,9 @@ export function SignUpCard() {
         <CardDescription className="text-center">
           Ao criar sua conta, você concoda com nossa {""}
           <Link className="text-yellow-500" href={"/politica-de-privacidade"}>
-            Política de privacidade
-          </Link>
-          {" "}
+            Política de privacidade <br />
+          </Link>{" "}
+          e{" "}
           <Link className="text-yellow-500" href={"/termos-de-servico"}>
             Termos de serviço
           </Link>
@@ -129,7 +129,7 @@ export function SignUpCard() {
       </div>
 
       <CardContent className="px-7 flex flex-col gap-y-4">
-        <Button className="w-full" variant="secondary">
+        <Button className="w-full" variant="secondary" size="lg">
           Criar conta com o Google
         </Button>
       </CardContent>
